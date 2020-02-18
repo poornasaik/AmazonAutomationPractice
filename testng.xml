@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="url" value="https://www.amazon.in" />
+
+	<test thread-count="5" name="CartVerification-chrome">
+		<!-- Specify Browser for a test -->
+		<parameter name="browser" value="chrome" />
+		<!-- Specify explicit wait time for a test -->
+		<parameter name="ewaitTime" value="5" /> 
+		<classes>
+			<class name="test.AmzCartVerification" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="CartVerification-firefox">
+		<!-- Specify Browser for a test -->
+		<parameter name="browser" value="firefox" />
+		<!-- Specify explicit wait time for a test -->
+		<parameter name="ewaitTime" value="5" /> 
+		<classes>
+			<class name="test.AmzCartVerification" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

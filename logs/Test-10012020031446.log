@@ -1,0 +1,86 @@
+15:14:46.867 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //input[@id='twotabsearchtextbox'] and returned
+15:14:50.803 [main] INFO  amz_Locators.HomePageLocators - Searched for product: Shirts
+15:14:50.804 [main] INFO  amz_Methods.SearchPageMethods - Sorting Search results
+15:14:50.886 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@class='a-dropdown-label'] and returned
+15:14:51.057 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (fa541338c575345498ec66a6b8d1542a)] -> xpath: //span[@class='a-dropdown-label']]
+15:14:51.075 [main] INFO  amz_Methods.SearchPageMethods - Clicked on Sort dropdown
+15:14:51.105 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //div[@class='a-popover-inner']//li and returned
+15:14:52.886 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (fa541338c575345498ec66a6b8d1542a)] -> xpath: //div[@class='a-popover-inner']//li]
+15:14:52.886 [main] INFO  amz_Methods.SearchPageMethods - Successfully clicked
+15:14:52.932 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@data-component-type='s-search-results'] //h2 //a and returned
+15:14:52.932 [main] INFO  amz_Methods.SearchPageMethods - Returned product list
+15:14:58.011 [main] ERROR utilities.WinHandler - Window count doesn't Match
+15:14:58.306 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (fa541338c575345498ec66a6b8d1542a)] -> xpath: //span[@data-component-type='s-search-results'] //h2 //a]
+15:14:58.313 [main] INFO  utilities.WinHandler - Changing to Child window
+15:15:02.043 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:02.043 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a deal item
+15:15:02.054 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:02.075 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_ourprice'] and returned
+15:15:02.089 [main] INFO  utilities.Verify - Found 1 elements using locator:By.xpath: //span[@id='priceblock_saleprice'] and returned
+15:15:02.089 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a Multiseller item
+15:15:02.129 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@id='productTitle'] and returned
+15:15:02.148 [main] INFO  amz_Locators.ProductPageLocators - Returned product name
+15:15:02.157 [main] INFO  utilities.Verify - Found 1 elements using locator:By.xpath: //span[@id='priceblock_saleprice'] and returned
+15:15:02.189 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@id='priceblock_saleprice'] and returned
+15:15:12.593 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //input[@id='twotabsearchtextbox'] and returned
+15:15:16.179 [main] INFO  amz_Locators.HomePageLocators - Searched for product: Mobiles
+15:15:16.179 [main] INFO  amz_Methods.SearchPageMethods - Sorting Search results
+15:15:16.264 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@class='a-dropdown-label'] and returned
+15:15:16.393 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (635b3e6e290379e4954ed84658e946d7)] -> xpath: //span[@class='a-dropdown-label']]
+15:15:16.409 [main] INFO  amz_Methods.SearchPageMethods - Clicked on Sort dropdown
+15:15:16.429 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //div[@class='a-popover-inner']//li and returned
+15:15:18.306 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (635b3e6e290379e4954ed84658e946d7)] -> xpath: //div[@class='a-popover-inner']//li]
+15:15:18.306 [main] INFO  amz_Methods.SearchPageMethods - Successfully clicked
+15:15:18.361 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@data-component-type='s-search-results'] //h2 //a and returned
+15:15:18.361 [main] INFO  amz_Methods.SearchPageMethods - Returned product list
+15:15:23.424 [main] ERROR utilities.WinHandler - Window count doesn't Match
+15:15:23.623 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (635b3e6e290379e4954ed84658e946d7)] -> xpath: //span[@data-component-type='s-search-results'] //h2 //a]
+15:15:23.632 [main] INFO  utilities.WinHandler - Changing to Child window
+15:15:27.277 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:27.277 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a deal item
+15:15:27.287 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:27.303 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_ourprice'] and returned
+15:15:27.317 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_saleprice'] and returned
+15:15:27.317 [main] INFO  amz_Locators.ProductPageLocators - returned True as product is  a Multiseller item
+15:15:27.319 [main] INFO  utilities.WinHandler - Closing Child window
+15:15:27.382 [main] INFO  utilities.WinHandler - Changed to main window
+15:15:32.461 [main] ERROR utilities.WinHandler - Window count doesn't Match
+15:15:32.704 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (635b3e6e290379e4954ed84658e946d7)] -> xpath: //span[@data-component-type='s-search-results'] //h2 //a]
+15:15:32.714 [main] INFO  utilities.WinHandler - Changing to Child window
+15:15:34.670 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:34.671 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a deal item
+15:15:34.683 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:34.692 [main] INFO  utilities.Verify - Found 1 elements using locator:By.xpath: //span[@id='priceblock_ourprice'] and returned
+15:15:34.692 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a Multiseller item
+15:15:34.732 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@id='productTitle'] and returned
+15:15:34.744 [main] INFO  amz_Locators.ProductPageLocators - Returned product name
+15:15:34.755 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_saleprice'] and returned
+15:15:34.803 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@id='priceblock_ourprice'] and returned
+15:15:34.818 [main] INFO  amz_Locators.ProductPageLocators - Returned product Price
+15:15:34.868 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //input[@id='add-to-cart-button'] and returned
+15:15:37.636 [main] INFO  amz_Locators.ProductPageLocators - Click on Added to cart
+15:15:37.638 [main] INFO  utilities.WinHandler - Closing Child window
+15:15:37.702 [main] INFO  utilities.WinHandler - Changed to main window
+15:15:42.769 [main] ERROR utilities.WinHandler - Window count doesn't Match
+15:15:42.987 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (635b3e6e290379e4954ed84658e946d7)] -> xpath: //span[@data-component-type='s-search-results'] //h2 //a]
+15:15:42.995 [main] INFO  utilities.WinHandler - Changing to Child window
+15:15:46.126 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:46.126 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a deal item
+15:15:46.148 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:46.173 [main] INFO  utilities.Verify - Found 1 elements using locator:By.xpath: //span[@id='priceblock_ourprice'] and returned
+15:15:46.174 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a Multiseller item
+15:15:46.226 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@id='productTitle'] and returned
+15:15:46.241 [main] INFO  amz_Locators.ProductPageLocators - Returned product name
+15:15:46.257 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_saleprice'] and returned
+15:15:46.309 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //span[@id='priceblock_ourprice'] and returned
+15:15:46.329 [main] INFO  amz_Locators.ProductPageLocators - Returned product Price
+15:15:46.372 [main] INFO  utilities.Verify - Found element with locator:By.xpath: //input[@id='add-to-cart-button'] and returned
+15:15:48.022 [main] INFO  amz_Locators.ProductPageLocators - Click on Added to cart
+15:15:48.024 [main] INFO  utilities.WinHandler - Closing Child window
+15:15:48.088 [main] INFO  utilities.WinHandler - Changed to main window
+15:15:53.145 [main] ERROR utilities.WinHandler - Window count doesn't Match
+15:15:53.352 [main] INFO  utilities.Verify - Element clicked using: [[ChromeDriver: chrome on WINDOWS (635b3e6e290379e4954ed84658e946d7)] -> xpath: //span[@data-component-type='s-search-results'] //h2 //a]
+15:15:53.359 [main] INFO  utilities.WinHandler - Changing to Child window
+15:15:56.902 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
+15:15:56.902 [main] INFO  amz_Locators.ProductPageLocators - returned False as product is not a deal item
+15:15:56.920 [main] INFO  utilities.Verify - Found 0 elements using locator:By.xpath: //span[@id='priceblock_dealprice'] and returned
