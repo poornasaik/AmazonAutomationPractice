@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -75,6 +76,8 @@ public class Verify {
 		} catch (ElementNotInteractableException enie) {			
 			Actions actions = new Actions(driver);
 			actions.moveToElement(interactElement).click().build().perform();
+		} catch (TimeoutException te) {
+			Assert.fail("Element not found");
 		}
 
 	}
